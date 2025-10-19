@@ -1,0 +1,43 @@
+2025-10-19 08:24:21,990 - INFO - ============================================================
+2025-10-19 08:24:21,990 - INFO - Inicio del programa
+2025-10-19 08:24:21,990 - INFO - ============================================================
+2025-10-19 08:24:21,990 - INFO - Prueba 1: División
+2025-10-19 08:24:21,990 - DEBUG - dividir() - Parámetros recibidos: a=10, b=0
+2025-10-19 08:24:21,990 - ERROR - dividir() - Error: División por cero. a=10, b=0
+2025-10-19 08:24:21,990 - ERROR - main() - Prueba 1 falló: division by zero
+2025-10-19 08:24:21,990 - INFO - Prueba 2: Promedio de lista vacía
+2025-10-19 08:24:21,990 - DEBUG - promedio() - Parámetros recibidos: lista_numeros=[]
+2025-10-19 08:24:21,990 - WARNING - promedio() - Lista vacía recibida
+2025-10-19 08:24:21,990 - ERROR - promedio() - Error: División por cero. Lista vacía.
+2025-10-19 08:24:21,990 - ERROR - main() - Prueba 2 falló: division by zero
+2025-10-19 08:24:21,990 - INFO - Prueba 3: Obtener elemento con índice fuera de rango
+2025-10-19 08:24:21,990 - DEBUG - obtener_elemento() - Parámetros recibidos: lista=[1, 2, 3], indice=5
+2025-10-19 08:24:21,990 - WARNING - obtener_elemento() - Índice fuera de rango: índice=5, tamaño lista=3
+2025-10-19 08:24:21,990 - ERROR - obtener_elemento() - Error: Índice fuera de rango. índice=5, tamaño=3
+2025-10-19 08:24:21,990 - ERROR - main() - Prueba 3 falló: list index out of range
+2025-10-19 08:24:21,990 - INFO - Prueba 4: Calcular total con tipos mezclados
+2025-10-19 08:24:21,990 - DEBUG - calcular_total() - Parámetros recibidos: precios=[10, 20, 'treinta', 40]
+2025-10-19 08:24:21,990 - DEBUG - calcular_total() - Procesando precio[0]=10, tipo=int
+2025-10-19 08:24:21,991 - DEBUG - calcular_total() - Procesando precio[1]=20, tipo=int
+2025-10-19 08:24:21,991 - DEBUG - calcular_total() - Procesando precio[2]=treinta, tipo=str
+2025-10-19 08:24:21,991 - ERROR - calcular_total() - Error: Tipo de dato inválido en la lista. unsupported operand type(s) for +=: 'int' and 'str'
+2025-10-19 08:24:21,991 - ERROR - main() - Prueba 4 falló: unsupported operand type(s) for +=: 'int' and 'str'
+2025-10-19 08:24:21,991 - INFO - ============================================================
+2025-10-19 08:24:21,991 - INFO - Fin del programa
+2025-10-19 08:24:21,991 - INFO - ============================================================
+2025-10-19 08:25:54,526 - INFO - ============================================================
+2025-10-19 08:25:54,526 - INFO - Inicio del programa
+2025-10-19 08:25:54,526 - INFO - ============================================================
+2025-10-19 08:25:54,526 - INFO - Prueba 1: División
+2025-10-19 08:25:54,526 - ERROR - Error: División por cero. a=10, b=0
+2025-10-19 08:25:54,526 - ERROR - Prueba 1 falló
+2025-10-19 08:25:54,526 - INFO - Prueba 2: Promedio de lista vacía
+2025-10-19 08:25:54,526 - WARNING - Advertencia: Lista vacía recibida para calcular el promedio
+2025-10-19 08:25:54,526 - INFO - Prueba 3: Obtener elemento con índice fuera de rango
+2025-10-19 08:25:54,526 - WARNING - Advertencia: Índice fuera de rango: 5 para una lista de tamaño 3
+2025-10-19 08:25:54,526 - INFO - Prueba 4: Calcular total con tipos mezclados
+2025-10-19 08:25:54,526 - ERROR - Error: Lista de precios contiene tipos de datos no válidos
+2025-10-19 08:25:54,526 - ERROR - Prueba 4 falló
+2025-10-19 08:25:54,526 - INFO - ============================================================
+2025-10-19 08:25:54,526 - INFO - Fin del programa
+2025-10-19 08:25:54,526 - INFO - ============================================================
