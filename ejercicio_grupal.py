@@ -4,7 +4,7 @@ logging.basicConfig(
     level=logging.INFO,  # Solo los mensajes importantes, no de depuración
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('ejercicio_grupal.log'),
+        logging.FileHandler('app.log'),
         logging.StreamHandler()
     ]
 )
@@ -67,25 +67,25 @@ def main():
 
     logging.info("Prueba 1: División")
     try:
-        dividir(10, 0)
+        dividir(10, 2)
     except Exception:
         logging.error("Prueba 1 falló")
 
     logging.info("Prueba 2: Promedio de lista vacía")
     try:
-        promedio([])
+        promedio([10,20,30])
     except Exception:
         logging.error("Prueba 2 falló")
 
     logging.info("Prueba 3: Obtener elemento con índice fuera de rango")
     try:
-        obtener_elemento([1, 2, 3], 5)
+        obtener_elemento([1, 2, 3],2)
     except Exception:
         logging.error("Prueba 3 falló")
 
     logging.info("Prueba 4: Calcular total con tipos mezclados")
     try:
-        calcular_total([10, 20, "treinta", 40])
+        calcular_total([10, 20, 30, 40])
     except Exception:
         logging.error("Prueba 4 falló")
 
